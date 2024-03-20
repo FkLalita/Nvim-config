@@ -28,9 +28,6 @@ return require('packer').startup(function(use)
       }
     end
   }
-  use({ 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } })
-  use({ 'nvim-treesitter/playground' })                                                                                       
-  use({ 'theprimeagen/harpoon' })                                                                                             
   use({ 'mbbill/undotree' })                                                                                                  
   use({ 'tpope/vim-fugitive' })                                                                                               
   use({ 'jiangmiao/auto-pairs' })
@@ -48,9 +45,7 @@ return require('packer').startup(function(use)
   use({ 'airblade/vim-gitgutter' })
   
   use { 'simrat39/rust-tools.nvim', requires = { 'neovim/nvim-lspconfig' } }
-  use({ "iamcco/markdown-preview.nvim" })
   use({ "ThePrimeagen/vim-be-good" })
-  use({ "mistricky/codesnap.nvim", run = "make" })
 
 
   -- Automatically set up your configuration after cloning packer.nvim

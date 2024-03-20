@@ -1,4 +1,9 @@
 require("fklalita.plugins")
+require("fklalita.remap")
+require("fklalita.set")
+
+
+
 
 local vim = vim
 local Plug = vim.fn['plug#']
