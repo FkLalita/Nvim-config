@@ -79,35 +79,40 @@ _G.packer_plugins = {
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
-  catppuccin = {
+  ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
   },
-  ["coc.nvim"] = {
+  ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["codesnap.nvim"] = {
+  ["cmp-path"] = {
     loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/codesnap.nvim",
-    url = "https://github.com/mistricky/codesnap.nvim"
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
   },
-  harpoon = {
+  ["cmp-vsnip"] = {
     loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/harpoon",
-    url = "https://github.com/theprimeagen/harpoon"
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["markdown-preview.nvim"] = {
+  ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
-    url = "https://github.com/iamcco/markdown-preview.nvim"
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
   },
   nerdtree = {
     loaded = true,
@@ -119,25 +124,20 @@ _G.packer_plugins = {
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
     url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  playground = {
-    loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/playground",
-    url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
@@ -184,11 +184,6 @@ _G.packer_plugins = {
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/vim-css-color",
     url = "https://github.com/ap/vim-css-color"
   },
-  ["vim-devicons"] = {
-    loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/vim-devicons",
-    url = "https://github.com/ryanoasis/vim-devicons"
-  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/vim-fugitive",
@@ -200,7 +195,7 @@ _G.packer_plugins = {
     url = "https://github.com/airblade/vim-gitgutter"
   },
   ["vim-ray-so-beautiful"] = {
-    config = { "\27LJ\2\2s\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\0\5\rlanguage\tauto\15background\ttrue\fpadding\a32\rdarkMode\ttrue\ntheme\ncandy\16ray_options\6g\bvim\0" },
+    config = { "\27LJ\2\2s\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\0\5\rlanguage\tauto\fpadding\a32\rdarkMode\ttrue\15background\ttrue\ntheme\ncandy\16ray_options\6g\bvim\0" },
     loaded = true,
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/vim-ray-so-beautiful",
     url = "https://github.com/sudoerwx/vim-ray-so-beautiful"
@@ -215,17 +210,17 @@ _G.packer_plugins = {
     path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
-  ["vim-wakatime"] = {
+  ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/vim-wakatime",
-    url = "https://github.com/wakatime/vim-wakatime"
+    path = "/home/fklalita/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
 
 time([[Defining packer_plugins]], false)
 -- Config for: vim-ray-so-beautiful
 time([[Config for vim-ray-so-beautiful]], true)
-try_loadstring("\27LJ\2\2s\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\0\5\rlanguage\tauto\15background\ttrue\fpadding\a32\rdarkMode\ttrue\ntheme\ncandy\16ray_options\6g\bvim\0", "config", "vim-ray-so-beautiful")
+try_loadstring("\27LJ\2\2s\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\0\5\rlanguage\tauto\fpadding\a32\rdarkMode\ttrue\15background\ttrue\ntheme\ncandy\16ray_options\6g\bvim\0", "config", "vim-ray-so-beautiful")
 time([[Config for vim-ray-so-beautiful]], false)
 
 _G._packer.inside_compile = false

@@ -28,6 +28,8 @@ return require('packer').startup(function(use)
       }
     end
   }
+
+  use 'neovim/nvim-lspconfig'
   use({ 'mbbill/undotree' })                                                                                                  
   use({ 'tpope/vim-fugitive' })                                                                                               
   use({ 'jiangmiao/auto-pairs' })
@@ -46,6 +48,24 @@ return require('packer').startup(function(use)
   
   use { 'simrat39/rust-tools.nvim', requires = { 'neovim/nvim-lspconfig' } }
   use({ "ThePrimeagen/vim-be-good" })
+    -- Autocompletion framework
+  use("hrsh7th/nvim-cmp")
+  use({
+    -- cmp LSP completion
+    "hrsh7th/cmp-nvim-lsp",
+    -- cmp Snippet completion
+    "hrsh7th/cmp-vsnip",
+    -- cmp Path completion
+    "hrsh7th/cmp-path",
+    "hrsh7th/cmp-buffer",
+    after = { "hrsh7th/nvim-cmp" },
+    requires = { "hrsh7th/nvim-cmp" },
+  })
+  -- See hrsh7th other plugins for more great completion sources!
+  -- Snippet engine
+  use('hrsh7th/vim-vsnip')
+  use 'williamboman/mason.nvim'    
+  use 'williamboman/mason-lspconfig.nvim'
 
 
   -- Automatically set up your configuration after cloning packer.nvim
